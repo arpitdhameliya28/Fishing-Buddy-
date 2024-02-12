@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BF080802B7A15F900155AC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0807F2B7A15F900155AC0 /* AppDelegate.swift */; };
+		5BF080822B7A15F900155AC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF080812B7A15F900155AC0 /* SceneDelegate.swift */; };
+		5BF080842B7A15F900155AC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF080832B7A15F900155AC0 /* ViewController.swift */; };
+		5BF080872B7A15F900155AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF080852B7A15F900155AC0 /* Main.storyboard */; };
+		5BF080892B7A15FC00155AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF080882B7A15FC00155AC0 /* Assets.xcassets */; };
+		5BF0808C2B7A15FC00155AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF0808A2B7A15FC00155AC0 /* LaunchScreen.storyboard */; };
+		5BF080972B7A15FC00155AC0 /* Fishing_BuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF080962B7A15FC00155AC0 /* Fishing_BuddyTests.swift */; };
+		5BF080A12B7A15FC00155AC0 /* Fishing_BuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF080A02B7A15FC00155AC0 /* Fishing_BuddyUITests.swift */; };
+		5BF080A32B7A15FC00155AC0 /* Fishing_BuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF080A22B7A15FC00155AC0 /* Fishing_BuddyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BF080932B7A15FC00155AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BF080742B7A15F900155AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BF0807B2B7A15F900155AC0;
+			remoteInfo = "Fishing Buddy";
+		};
+		5BF0809D2B7A15FC00155AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BF080742B7A15F900155AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BF0807B2B7A15F900155AC0;
+			remoteInfo = "Fishing Buddy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BF0807C2B7A15F900155AC0 /* Fishing Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fishing Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF0807F2B7A15F900155AC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BF080812B7A15F900155AC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5BF080832B7A15F900155AC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BF080862B7A15F900155AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BF080882B7A15FC00155AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BF0808B2B7A15FC00155AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BF0808D2B7A15FC00155AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF080922B7A15FC00155AC0 /* Fishing BuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fishing BuddyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF080962B7A15FC00155AC0 /* Fishing_BuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fishing_BuddyTests.swift; sourceTree = "<group>"; };
+		5BF0809C2B7A15FC00155AC0 /* Fishing BuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fishing BuddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF080A02B7A15FC00155AC0 /* Fishing_BuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fishing_BuddyUITests.swift; sourceTree = "<group>"; };
+		5BF080A22B7A15FC00155AC0 /* Fishing_BuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fishing_BuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BF080792B7A15F900155AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF0808F2B7A15FC00155AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF080992B7A15FC00155AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BF080732B7A15F900155AC0 = {
+			isa = PBXGroup;
+			children = (
+				5BF0807E2B7A15F900155AC0 /* Fishing Buddy */,
+				5BF080952B7A15FC00155AC0 /* Fishing BuddyTests */,
+				5BF0809F2B7A15FC00155AC0 /* Fishing BuddyUITests */,
+				5BF0807D2B7A15F900155AC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BF0807D2B7A15F900155AC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BF0807C2B7A15F900155AC0 /* Fishing Buddy.app */,
+				5BF080922B7A15FC00155AC0 /* Fishing BuddyTests.xctest */,
+				5BF0809C2B7A15FC00155AC0 /* Fishing BuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BF0807E2B7A15F900155AC0 /* Fishing Buddy */ = {
+			isa = PBXGroup;
+			children = (
+				5BF0807F2B7A15F900155AC0 /* AppDelegate.swift */,
+				5BF080812B7A15F900155AC0 /* SceneDelegate.swift */,
+				5BF080832B7A15F900155AC0 /* ViewController.swift */,
+				5BF080852B7A15F900155AC0 /* Main.storyboard */,
+				5BF080882B7A15FC00155AC0 /* Assets.xcassets */,
+				5BF0808A2B7A15FC00155AC0 /* LaunchScreen.storyboard */,
+				5BF0808D2B7A15FC00155AC0 /* Info.plist */,
+			);
+			path = "Fishing Buddy";
+			sourceTree = "<group>";
+		};
+		5BF080952B7A15FC00155AC0 /* Fishing BuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BF080962B7A15FC00155AC0 /* Fishing_BuddyTests.swift */,
+			);
+			path = "Fishing BuddyTests";
+			sourceTree = "<group>";
+		};
+		5BF0809F2B7A15FC00155AC0 /* Fishing BuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BF080A02B7A15FC00155AC0 /* Fishing_BuddyUITests.swift */,
+				5BF080A22B7A15FC00155AC0 /* Fishing_BuddyUITestsLaunchTests.swift */,
+			);
+			path = "Fishing BuddyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BF0807B2B7A15F900155AC0 /* Fishing Buddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF080A62B7A15FD00155AC0 /* Build configuration list for PBXNativeTarget "Fishing Buddy" */;
+			buildPhases = (
+				5BF080782B7A15F900155AC0 /* Sources */,
+				5BF080792B7A15F900155AC0 /* Frameworks */,
+				5BF0807A2B7A15F900155AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fishing Buddy";
+			productName = "Fishing Buddy";
+			productReference = 5BF0807C2B7A15F900155AC0 /* Fishing Buddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BF080912B7A15FC00155AC0 /* Fishing BuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF080A92B7A15FD00155AC0 /* Build configuration list for PBXNativeTarget "Fishing BuddyTests" */;
+			buildPhases = (
+				5BF0808E2B7A15FC00155AC0 /* Sources */,
+				5BF0808F2B7A15FC00155AC0 /* Frameworks */,
+				5BF080902B7A15FC00155AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BF080942B7A15FC00155AC0 /* PBXTargetDependency */,
+			);
+			name = "Fishing BuddyTests";
+			productName = "Fishing BuddyTests";
+			productReference = 5BF080922B7A15FC00155AC0 /* Fishing BuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BF0809B2B7A15FC00155AC0 /* Fishing BuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF080AC2B7A15FD00155AC0 /* Build configuration list for PBXNativeTarget "Fishing BuddyUITests" */;
+			buildPhases = (
+				5BF080982B7A15FC00155AC0 /* Sources */,
+				5BF080992B7A15FC00155AC0 /* Frameworks */,
+				5BF0809A2B7A15FC00155AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BF0809E2B7A15FC00155AC0 /* PBXTargetDependency */,
+			);
+			name = "Fishing BuddyUITests";
+			productName = "Fishing BuddyUITests";
+			productReference = 5BF0809C2B7A15FC00155AC0 /* Fishing BuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BF080742B7A15F900155AC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5BF0807B2B7A15F900155AC0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5BF080912B7A15FC00155AC0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5BF0807B2B7A15F900155AC0;
+					};
+					5BF0809B2B7A15FC00155AC0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5BF0807B2B7A15F900155AC0;
+					};
+				};
+			};
+			buildConfigurationList = 5BF080772B7A15F900155AC0 /* Build configuration list for PBXProject "Fishing Buddy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BF080732B7A15F900155AC0;
+			productRefGroup = 5BF0807D2B7A15F900155AC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BF0807B2B7A15F900155AC0 /* Fishing Buddy */,
+				5BF080912B7A15FC00155AC0 /* Fishing BuddyTests */,
+				5BF0809B2B7A15FC00155AC0 /* Fishing BuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BF0807A2B7A15F900155AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF0808C2B7A15FC00155AC0 /* LaunchScreen.storyboard in Resources */,
+				5BF080892B7A15FC00155AC0 /* Assets.xcassets in Resources */,
+				5BF080872B7A15F900155AC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF080902B7A15FC00155AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF0809A2B7A15FC00155AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BF080782B7A15F900155AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF080842B7A15F900155AC0 /* ViewController.swift in Sources */,
+				5BF080802B7A15F900155AC0 /* AppDelegate.swift in Sources */,
+				5BF080822B7A15F900155AC0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF0808E2B7A15FC00155AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF080972B7A15FC00155AC0 /* Fishing_BuddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF080982B7A15FC00155AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF080A32B7A15FC00155AC0 /* Fishing_BuddyUITestsLaunchTests.swift in Sources */,
+				5BF080A12B7A15FC00155AC0 /* Fishing_BuddyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BF080942B7A15FC00155AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BF0807B2B7A15F900155AC0 /* Fishing Buddy */;
+			targetProxy = 5BF080932B7A15FC00155AC0 /* PBXContainerItemProxy */;
+		};
+		5BF0809E2B7A15FC00155AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BF0807B2B7A15F900155AC0 /* Fishing Buddy */;
+			targetProxy = 5BF0809D2B7A15FC00155AC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BF080852B7A15F900155AC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF080862B7A15F900155AC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BF0808A2B7A15FC00155AC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF0808B2B7A15FC00155AC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BF080A42B7A15FC00155AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BF080A52B7A15FC00155AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BF080A72B7A15FD00155AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fishing Buddy/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fishing-Buddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BF080A82B7A15FD00155AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fishing Buddy/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fishing-Buddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5BF080AA2B7A15FD00155AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fishing-BuddyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fishing Buddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fishing Buddy";
+			};
+			name = Debug;
+		};
+		5BF080AB2B7A15FD00155AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fishing-BuddyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fishing Buddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fishing Buddy";
+			};
+			name = Release;
+		};
+		5BF080AD2B7A15FD00155AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fishing-BuddyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fishing Buddy";
+			};
+			name = Debug;
+		};
+		5BF080AE2B7A15FD00155AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fishing-BuddyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fishing Buddy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BF080772B7A15F900155AC0 /* Build configuration list for PBXProject "Fishing Buddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF080A42B7A15FC00155AC0 /* Debug */,
+				5BF080A52B7A15FC00155AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BF080A62B7A15FD00155AC0 /* Build configuration list for PBXNativeTarget "Fishing Buddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF080A72B7A15FD00155AC0 /* Debug */,
+				5BF080A82B7A15FD00155AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BF080A92B7A15FD00155AC0 /* Build configuration list for PBXNativeTarget "Fishing BuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF080AA2B7A15FD00155AC0 /* Debug */,
+				5BF080AB2B7A15FD00155AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BF080AC2B7A15FD00155AC0 /* Build configuration list for PBXNativeTarget "Fishing BuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF080AD2B7A15FD00155AC0 /* Debug */,
+				5BF080AE2B7A15FD00155AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BF080742B7A15F900155AC0 /* Project object */;
+}
