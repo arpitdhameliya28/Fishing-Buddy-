@@ -9,13 +9,20 @@ import UIKit
 
 class Welcome_VC: UIViewController {
 
+    @IBOutlet weak var hookupbut: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        hookupbut.layer.cornerRadius = hookupbut.frame.height / 2
+        
     }
     
 
+    @IBAction func welcomeBut(_ sender: Any) {
+        let vc = UIStoryboard(name: "Tabbar", bundle: nil).instantiateViewController(identifier: "TabbarVC") 
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
     /*
     // MARK: - Navigation
 

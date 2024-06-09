@@ -10,32 +10,41 @@ import UIKit
 class HomeVC: UIViewController  {
   
     
-   
-
+    @IBOutlet weak var findnewduddi: UIButton!    
     @IBOutlet weak var collecationView: UICollectionView!
     
     @IBOutlet weak var tableview: UITableView!
     
     var homearr = ["homeimg1","homeimg2","homeimg3","homeimg4"]
     
-    static var fishstories_arr = ["homeimg2","homeimg3","homeimg4","homeimg5","homeimg6","homeimg7"]
-    static var profileimg_arr = ["1","2","3","4","5","6"]
+    static var fishstories_arr = ["homeimg2","homeimg3","homeimg4","homeimg5","homeimg6","homeimg7","homeimg8","homeimg9"]
+    static var profileimg_arr = ["1","2","3","4","5","6","7","8"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        findnewduddi.layer.cornerRadius = 8
         setupdidload()
-     
+       premiumPopupDelaySet()
+        
+        findnewduddi.setgradiantcolor(color: [UIColor.garidant2 , UIColor.garidant1], startpoint:  CGPoint(x: 1.0, y: 0.0), endpoint: CGPoint(x: 0.0, y: 1.0), cornerradius: 10)
         
     }
-    
+  
 
-    
-
+    @IBAction func locationbut(_ sender: Any) {
+        navigate(Storybord: "Home", identifier: "CreaterequestVC", VC: self)
+    }
 }
 
 
-extension HomeVC: UICollectionViewDataSource ,UICollectionViewDelegate, UITableViewDataSource, UITableViewDelegate{
+extension HomeVC: UICollectionViewDataSource ,UICollectionViewDelegate, UITableViewDataSource, UITableViewDelegate {
+    
+    func premiumPopupDelaySet () {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2){
+            Fishing_Buddy.present(Storybord: "AlertPopup", identifier: "PremiumPopup", VC: self)
+        }
+    }
+    
     
     func setupdidload()  {
         self.collecationView.dataSource = self
@@ -44,6 +53,8 @@ extension HomeVC: UICollectionViewDataSource ,UICollectionViewDelegate, UITableV
         self.tableview.delegate = self
         self.collecationView.register(UINib(nibName: "home_image_Cell", bundle: nil), forCellWithReuseIdentifier: "home_image_Cell")
         self.tableview.register(UINib(nibName: "Home_story_Cell", bundle: nil), forCellReuseIdentifier: "Home_story_Cell")
+        
+        
     }
     
     //MARK: CollectionView

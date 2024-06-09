@@ -1,21 +1,75 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ChatView_cell" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChatView_cell" rowHeight="217" id="lTN-WG-Ans" customClass="ChatView_cell" customModule="Fishing_Buddy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="325" height="217"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lTN-WG-Ans" id="uzv-bO-Bh3">
+                <rect key="frame" x="0.0" y="0.0" width="325" height="217"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="10" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q5X-uf-1Go">
+                        <rect key="frame" x="130" y="5" width="190" height="202"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SD3-vj-2tt">
+                                <rect key="frame" x="0.0" y="0.0" width="190" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LabelLabelLabelLabelLabelLabel" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2O5-mh-Hca">
+                                        <rect key="frame" x="8" y="8" width="174" height="34"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="sNo-dT-VqY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.94509803920000002" green="0.96862745100000003" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="2O5-mh-Hca" firstAttribute="top" secondItem="SD3-vj-2tt" secondAttribute="top" constant="8" id="9AB-gt-aWu"/>
+                                    <constraint firstAttribute="trailing" secondItem="2O5-mh-Hca" secondAttribute="trailing" constant="8" id="ZFE-r5-LhO"/>
+                                    <constraint firstAttribute="bottom" secondItem="2O5-mh-Hca" secondAttribute="bottom" constant="8" id="sqp-Cw-OBX"/>
+                                    <constraint firstItem="2O5-mh-Hca" firstAttribute="leading" secondItem="SD3-vj-2tt" secondAttribute="leading" constant="8" id="uB6-Uj-bRv"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jD1-V4-hAI">
+                                <rect key="frame" x="0.0" y="60" width="190" height="142"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jD1-V4-hAI" firstAttribute="top" secondItem="SD3-vj-2tt" secondAttribute="bottom" constant="10" id="8Zb-ua-nmB"/>
+                            <constraint firstAttribute="trailing" secondItem="jD1-V4-hAI" secondAttribute="trailing" id="8cW-Q4-bRG"/>
+                            <constraint firstAttribute="width" constant="190" id="8uh-26-ZLZ"/>
+                            <constraint firstAttribute="bottom" secondItem="jD1-V4-hAI" secondAttribute="bottom" id="D1P-Mm-iYa"/>
+                            <constraint firstItem="jD1-V4-hAI" firstAttribute="leading" secondItem="Q5X-uf-1Go" secondAttribute="leading" id="PjQ-EB-ULz"/>
+                            <constraint firstAttribute="trailing" secondItem="SD3-vj-2tt" secondAttribute="trailing" id="nwp-d5-HNs"/>
+                            <constraint firstItem="SD3-vj-2tt" firstAttribute="top" secondItem="Q5X-uf-1Go" secondAttribute="top" id="xx6-mN-UzL"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Q5X-uf-1Go" firstAttribute="leading" secondItem="uzv-bO-Bh3" secondAttribute="leading" constant="130" id="4Kp-Jg-kp7"/>
+                    <constraint firstAttribute="trailing" secondItem="Q5X-uf-1Go" secondAttribute="trailing" constant="5" id="aSW-yM-Sy6"/>
+                    <constraint firstItem="Q5X-uf-1Go" firstAttribute="top" secondItem="uzv-bO-Bh3" secondAttribute="top" constant="5" id="kYH-P5-Cgy"/>
+                    <constraint firstAttribute="bottom" secondItem="Q5X-uf-1Go" secondAttribute="bottom" constant="10" id="ndZ-PJ-CTJ"/>
+                </constraints>
             </tableViewCellContentView>
-            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <viewLayoutGuide key="safeArea" id="PAn-wK-Hvf"/>
+            <connections>
+                <outlet property="meslblView" destination="SD3-vj-2tt" id="xtS-gt-39p"/>
+                <outlet property="messageLbl" destination="2O5-mh-Hca" id="Y87-AY-4XQ"/>
+            </connections>
+            <point key="canvasLocation" x="46.564885496183201" y="36.267605633802816"/>
         </tableViewCell>
     </objects>
 </document>

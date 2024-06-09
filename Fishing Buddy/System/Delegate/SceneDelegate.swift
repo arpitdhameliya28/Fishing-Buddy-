@@ -6,7 +6,9 @@
 //
 
 import UIKit
+import FirebaseAuth
 
+var CurrentUserUid = Auth.auth().currentUser!.uid
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?

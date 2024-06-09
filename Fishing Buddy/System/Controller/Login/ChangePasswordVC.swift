@@ -9,10 +9,13 @@ import UIKit
 
 class ChangePasswordVC: UIViewController {
 
+    @IBOutlet weak var updatePassBut: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        updatePassBut.layer.cornerRadius = 8
+        updatePassBut.setgradiantcolor(color: [UIColor.garidant2 , UIColor.garidant1], startpoint:  CGPoint(x: 1.0, y: 0.0), endpoint: CGPoint(x: 0.0, y: 1.0), cornerradius: 8)
     }
     
 

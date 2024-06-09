@@ -9,21 +9,25 @@ import UIKit
 
 class LoginVerification: UIViewController {
 
+    
+    @IBOutlet weak var verify: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        verify.layer.cornerRadius = 8
+        
+        verify.setgradiantcolor(color: [UIColor.garidant2 , UIColor.garidant1], startpoint:  CGPoint(x: 1.0, y: 0.0), endpoint: CGPoint(x: 0.0, y: 1.0), cornerradius: 8)
         // Do any additional setup after loading the view.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func verifyBut(_ sender: Any) {
+        
+        navigate(Storybord: "Tabbar", identifier: "TabbarVC", VC: self)
+       
     }
-    */
+    
 
 }

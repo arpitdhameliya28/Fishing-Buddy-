@@ -9,9 +9,11 @@ import UIKit
 
 class home_image_Cell: UICollectionViewCell {
 
+    @IBOutlet weak var imageview: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        imageview.layer.cornerRadius = 10
     }
 
 }

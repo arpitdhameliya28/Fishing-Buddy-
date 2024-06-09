@@ -9,9 +9,16 @@ import UIKit
 
 class ChatView_cell: UITableViewCell {
 
+    @IBOutlet weak var meslblView: UIView!
+    @IBOutlet weak var messageLbl: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        self.meslblView.layer.cornerRadius = 8
+        self.meslblView.layer.borderWidth = 0.5
+        self.meslblView.layer.borderColor = UIColor.systemGray3.cgColor
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

@@ -9,10 +9,13 @@ import UIKit
 
 class ForgetPassVerification: UIViewController {
 
+    @IBOutlet weak var verifyBut: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        verifyBut.layer.cornerRadius = 8
+        verifyBut.setgradiantcolor(color: [UIColor.garidant2 , UIColor.garidant1], startpoint:  CGPoint(x: 1.0, y: 0.0), endpoint: CGPoint(x: 0.0, y: 1.0), cornerradius: 8)
     }
     
 

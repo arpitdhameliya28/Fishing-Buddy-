@@ -9,21 +9,25 @@ import UIKit
 
 class PremiumPopup: UIViewController {
 
+    @IBOutlet weak var viewPopup: UIView!
+    
+    @IBOutlet weak var unlockFeatures: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        viewPopup.layer.cornerRadius = 15
+        unlockFeatures.layer.cornerRadius = 8
+        unlockFeatures.setgradiantcolor(color: [UIColor.garidant2 , UIColor.garidant1], startpoint:  CGPoint(x: 1.0, y: 0.0), endpoint: CGPoint(x: 0.0, y: 1.0), cornerradius: 8)
+        unlockFeatures.clipsToBounds  = true
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func unlock(_ sender: UIButton) {
+        dismiss(animated: true)
     }
-    */
-
+    
+    @IBAction func cancel(_ sender: Any) {
+        dismiss(animated: true)
+    }
+    
 }

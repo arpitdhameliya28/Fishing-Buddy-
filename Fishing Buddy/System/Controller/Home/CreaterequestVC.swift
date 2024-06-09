@@ -7,23 +7,36 @@
 
 import UIKit
 
-class CreaterequestVC: UIViewController {
-
+class CreaterequestVC: UIViewController , datepass{
+   
+    @IBOutlet weak var selectLocstio: UIButton!
+    
+    @IBOutlet weak var datepicTextfiled: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        UserDefaults.standard.string(forKey: "DOB")
+        selectLocstio.layer.cornerRadius = 8
+        selectLocstio.setgradiantcolor(color: [UIColor.garidant2 , UIColor.garidant1], startpoint: CGPoint(x: 1.0, y: 0.0), endpoint: CGPoint(x: 0.0, y: 1.0), cornerradius: 8)
+        
+    }
+   
+   
+    func data_(data: String) {
+        datepicTextfiled.text = data
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func datepicBut(_ sender: Any) {
+        
+        let vc = UIStoryboard(name: "AlertPopup", bundle: nil).instantiateViewController(identifier: "DatapickerVC") as! DatapickerVC
+        vc.modalPresentationStyle = .overCurrentContext
+        vc.modalTransitionStyle = .crossDissolve
+        vc.delegate = self
+        self.present(vc, animated: true)
+        
     }
-    */
-
+    
+    
 }

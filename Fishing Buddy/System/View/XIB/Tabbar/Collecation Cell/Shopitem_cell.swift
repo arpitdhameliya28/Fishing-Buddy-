@@ -9,9 +9,15 @@ import UIKit
 
 class Shopitem_cell: UICollectionViewCell {
 
+    @IBOutlet weak var itemImageView: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        
+        self.itemImageView.layer.cornerRadius = 5
+        
+        
     }
 
 }

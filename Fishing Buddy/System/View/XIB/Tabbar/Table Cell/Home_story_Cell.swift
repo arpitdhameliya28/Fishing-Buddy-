@@ -9,9 +9,15 @@ import UIKit
 
 class Home_story_Cell: UITableViewCell {
 
+    @IBOutlet weak var profileimg: UIImageView!
+    @IBOutlet weak var imageview: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        self.profileimg.layer.cornerRadius = profileimg.frame.height / 2
+        
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

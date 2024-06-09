@@ -22,11 +22,12 @@ class DatapickerVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        selectButOul.layer.cornerRadius = 15
+        selectButOul.layer.cornerRadius = 8
+        selectButOul.setgradiantcolor(color: [UIColor.garidant2 , UIColor.garidant1], startpoint:  CGPoint(x: 1.0, y: 0.0), endpoint: CGPoint(x: 0.0, y: 1.0), cornerradius: 8)
         view_.layer.cornerRadius = 20
-        view_.layer.shadowColor = UIColor.black.cgColor
-        view_.layer.shadowOpacity = 1
-        view_.layer.shadowRadius = 15
+//        view_.layer.shadowColor = UIColor.black.cgColor
+//        view_.layer.shadowOpacity = 1
+//        view_.layer.shadowRadius = 15
        
         
     }

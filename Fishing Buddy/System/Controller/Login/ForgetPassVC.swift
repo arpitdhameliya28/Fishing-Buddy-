@@ -9,10 +9,12 @@ import UIKit
 
 class ForgetPassVC: UIViewController {
 
+    @IBOutlet weak var sendCode: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        sendCode.layer.cornerRadius = 8
+        sendCode.setgradiantcolor(color: [UIColor.garidant2 , UIColor.garidant1], startpoint:  CGPoint(x: 1.0, y: 0.0), endpoint: CGPoint(x: 0.0, y: 1.0), cornerradius: 8)
     }
     
 
